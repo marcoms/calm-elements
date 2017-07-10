@@ -1,0 +1,16 @@
+{
+  "name": "calm-base",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Marco Scannadinari <m@scannadinari.co.uk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoms/calm-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcoms/calm-base/issues"
+  },
+  "homepage": "https://github.com/marcoms/calm-base#readme",
+  "description": ""
+}
