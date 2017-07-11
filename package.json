@@ -1,16 +1,16 @@
 {
-  "name": "@marcoms/calm-base",
+  "name": "@marcoms/calm-elements",
   "version": "0.0.1",
-  "main": "src/index.js",
+  "main": "build/calm-elements.js",
   "author": "Marco Scannadinari <m@scannadinari.co.uk>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcoms/calm-base.git"
+    "url": "git+https://github.com/marcoms/calm-elements.git"
   },
   "bugs": {
-    "url": "https://github.com/marcoms/calm-base/issues"
+    "url": "https://github.com/marcoms/calm-elements/issues"
   },
-  "homepage": "https://github.com/marcoms/calm-base#readme",
-  "description": ""
+  "homepage": "https://github.com/marcoms/calm-elements#readme",
+  "description": "Collection of web components for clean UI"
 }
