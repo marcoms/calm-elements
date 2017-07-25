@@ -14,7 +14,7 @@
   "homepage": "https://github.com/marcoms/calm-elements#readme",
   "description": "Collection of web components for clean UI",
   "dependencies": {
-    "@marcoms/make-element": "^4.1.3",
+    "@marcoms/make-element": "^4.1.7",
     "quicktap": "^4.1.0"
   },
   "devDependencies": {
