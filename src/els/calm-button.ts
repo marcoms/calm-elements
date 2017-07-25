@@ -5,6 +5,21 @@ import makeElement from '@marcoms/make-element';
 import { makeFocusMixin } from 'calm-base';
 
 const CalmButton = makeElement({
+	props: {
+		disabled: {
+			attr: 'disabled',
+			boolAttr: true,
+			init: false,
+			set(val) {
+				if (val) {
+					this.$['button'].setAttribute('aria-disabled', 'true');
+				} else {
+					this.$['button'].setAttribute('aria-disabled', 'false');
+				}
+			},
+		},
+	},
+
 	shadowDom: true,
 	template: `
 		<style>
@@ -44,6 +59,11 @@ const CalmButton = makeElement({
 			#button[active] {
 				box-shadow: var(--outline-shadow);
 				transition: none;
+			}
+
+			:host([disabled]) #button {
+				pointer-events: none;
+				opacity: 0.5;
 			}
 
 			#contents {
