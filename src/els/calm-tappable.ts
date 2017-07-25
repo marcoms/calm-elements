@@ -5,9 +5,9 @@ import quicktap from 'quicktap';
 
 const CalmTappable = makeElement({
 	props: {
-		darkbg: {
+		spotlight: {
 			init: false,
-			attr: 'darkbg',
+			attr: 'spotlight',
 			boolAttr: true,
 		},
 
@@ -41,8 +41,9 @@ const CalmTappable = makeElement({
 				transition: none;
 			}
 
-			:host([darkbg]) #tappable.active {
-				background: var(--calm-color-active-darkbg);
+			:host([spotlight]) #tappable.active {
+				background: var(--calm-color-active-spotlight);
+				box-shadow: none;
 			}
 		</style>
 

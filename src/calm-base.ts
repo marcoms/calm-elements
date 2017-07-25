@@ -53,7 +53,7 @@ if (!(window as any).calmStylesInjected) {
 			--calm-color-focus: rgba(25, 118, 210, 0.5);
 
 			--calm-color-active: rgba(0, 0, 0, 0.1);
-			--calm-color-active-darkbg: rgba(255, 255, 255, 0.1);
+			--calm-color-active-spotlight: rgba(255, 255, 255, 0.1);
 
 			--calm-color-outline: rgba(0, 0, 0, 0.25);
 			--calm-color-outline-darkbg: rgba(255, 255, 255, 0.1);
