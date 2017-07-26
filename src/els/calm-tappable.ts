@@ -29,7 +29,7 @@ const CalmTappable = makeElement({
 				cursor: default;
 				border-radius: inherit;
 				transition-property: background, box-shadow;
-				transition-duration: 80ms;
+				transition-duration: var(--calm-duration-blip);
 				transition-timing-function: linear;
 
 				-webkit-tap-highlight-color: transparent;
@@ -63,9 +63,9 @@ const CalmTappable = makeElement({
 			this.active = false;
 			this.dispatchEvent(new CustomEvent('deactivate'));
 		});
-	}
+	},
 });
 
-window.customElements.define('calm-tappable', CalmTappable);
+customElements.define('calm-tappable', CalmTappable);
 
 export default CalmTappable;

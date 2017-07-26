@@ -2,7 +2,7 @@ import 'calm-base';
 import 'els/calm-tappable';
 
 import makeElement from '@marcoms/make-element';
-import { makeFocusMixin } from 'calm-base';
+import {makeFocusMixin} from 'calm-base';
 
 const CalmButton = makeElement({
 	props: {
@@ -48,7 +48,7 @@ const CalmButton = makeElement({
 				user-select: none;
 
 				transition-property: box-shadow, background;
-				transition-duration: 80ms;
+				transition-duration: var(--calm-duration-blip);
 				transition-timing-function: linear;
 			}
 
@@ -85,6 +85,6 @@ const CalmButton = makeElement({
 	`,
 });
 
-window.customElements.define('calm-button', CalmButton);
+customElements.define('calm-button', CalmButton);
 
 export default CalmButton;
