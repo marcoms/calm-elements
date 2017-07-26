@@ -50,7 +50,7 @@ if (!(window as any).calmStylesInjected) {
 			--calm-color-blue: #2196f3;
 			--calm-color-blue-dark: #1976d2;
 
-			--calm-color-focus: rgba(25, 118, 210, 0.5);
+			--calm-color-focus: rgba(25, 118, 210, 0.35);
 
 			--calm-color-active: rgba(0, 0, 0, 0.1);
 			--calm-color-active-spotlight: rgba(255, 255, 255, 0.1);
@@ -65,6 +65,11 @@ if (!(window as any).calmStylesInjected) {
 			--calm-duration-medium: 320ms;
 			--calm-duration-long: 420ms;
 			--calm-duration-extreme: 960ms;
+
+			--calm-shadow-1: 0 1px 4px rgba(0, 0, 0, 0.3);
+			--calm-shadow-2: 0 2px 8px rgba(0, 0, 0, 0.35);
+			--calm-shadow-3: 0 4px 16px rgba(0, 0, 0, 0.4);
+			--calm-shadow-4: 0 8px 24px rgba(0, 0, 0, 0.45);
 
 			--calm-border-radius: 3px;
 		}
