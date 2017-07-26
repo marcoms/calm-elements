@@ -61,6 +61,7 @@ if (!(window as any).calmStylesInjected) {
 			--calm-ease-out: cubic-bezier(0.165, 0.84, 0.44, 1);
 			--calm-ease-in: cubic-bezier(0.895, 0.03, 0.685, 0.22);
 
+			--calm-duration-blip: 80ms;
 			--calm-duration-short: 160ms;
 			--calm-duration-medium: 320ms;
 			--calm-duration-long: 420ms;
